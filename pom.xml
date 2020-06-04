@@ -173,6 +173,11 @@
 			<artifactId>logback-classic</artifactId>
 			<version>1.1.3</version>
 		</dependency>
+	 <dependency>
+	  <groupId>${project.groupId}</groupId>
+	  <artifactId>back_end</artifactId>
+	  <version>1.0-SNAPSHOT</version>
+	 </dependency>
 	</dependencies>
 	<build>
 		<plugins>
